@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 20px;
+}
+
+#nav-part1 button {
+    padding: 5px 7px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+#nav-part1 button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+#nav-part1 i {
+    border: 2px solid #111;
+    padding: 5px 5px;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+#nav-part1 i:hover{
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+#nav-mid img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 40px;
+    left: 44%;
+    object-fit: cover;
+    border-radius: 50%;
+
+
+}
+
+#nav-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+#nav-part3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -30px;
+}
+
+#nav-part3 button {
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#nav-part3 #nitesh {
+    background-color: red;
+    color: #fff;
+    border: none;
+
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img4 {
+    transform: translate(-50%, -50%) rotate(-5deg);
+
+}
+
+#img-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+
+#img-top i {
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 25px;
+    color: gray;
+}
+
+#img-top h3 {
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 7px;
+    font-weight: 600;
+}
+
+#text-buttom {
+    position: absolute;
+    top: 90%;
+    font-size: 10px;
+
+}
+
+#text-buttom h3 {
+    font-size: 35px;
+    color: red;
+}
+
+#logo-buttom-right {
+    position: absolute;
+    top: 92%;
+    left: 90%;
+}
+
+#logo-buttom-right i {
+    margin-left: 23px;
+}
+
+#circle-mid {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    border: 2px solid #111;
+}
+
+#circle-mid i {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    font-size: 80px;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 40%;
+        opacity: 0.2;
+        color: red;
+    }
+}
